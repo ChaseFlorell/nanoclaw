@@ -53,7 +53,7 @@ const SWEEP_INTERVAL_MS = 60_000;
 export const ABSOLUTE_CEILING_MS = 30 * 60 * 1000;
 // Stuck tolerance window applied per 'processing' claim — "did we see any
 // signs of life since this message was claimed?"
-export const CLAIM_STUCK_MS = 60 * 1000;
+export const CLAIM_STUCK_MS = 15 * 60 * 1000; // Patched: Qwen3-32B-6bit takes 5-10 min per inference
 const MAX_TRIES = 5;
 const BACKOFF_BASE_MS = 5000;
 

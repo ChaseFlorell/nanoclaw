@@ -7,3 +7,9 @@
 // self-registration import below.
 
 import './cli.js';
+
+// telegram — added by /add-telegram
+import './telegram.js';
+
+// whatsapp (native Baileys, no Chat SDK) — added by /add-whatsapp
+import './whatsapp.js';
